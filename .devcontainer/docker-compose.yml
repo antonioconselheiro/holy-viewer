@@ -1,0 +1,14 @@
+services:
+  holy-viewer-dev:
+    image: holy-viewer-dev
+    container_name: holy-viewer-dev
+    build:
+      context: ../.
+      dockerfile: ./.devcontainer/Dockerfile
+    working_dir: /holy-viewer
+    ports:
+      - "4907:4907"
+    volumes:
+      - ..:/holy-viewer:cached
+      - /var/run/docker.sock:/var/run/docker.sock
+    tty: true
