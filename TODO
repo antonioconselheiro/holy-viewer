@@ -1,0 +1,17 @@
+Componentes
+
+-> tabelas interligáveis
+testar https://anseki.github.io/leader-line/
+https://www.npmjs.com/package/leader-line-new
+
+-> mecanismos básicos de formatação: heading, negrito, itálico
+-> comentários assinados com nostr
+-> mapa com pins e representação de rotas
+-> link com qrcode autogerado
+-> sistema de caracteres páleo hebraico e ge'ez
+-> derivador de gematria, páleo hebraico e iconografia
+-> relacionador de traduções
+-> componente css para quotation e figure
+-> componente infografico para representação de momentos agrupados
+-> representação do conteúdo em página A4 imprimível
+-> representação da interpretação deve vir de um JSON
